@@ -2,6 +2,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'package:flutter/material.dart';
 import 'package:mytodos/screens/homepage.dart';
+import 'package:mytodos/screens/loginpage.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
           textTheme:
               GoogleFonts.nunitoSansTextTheme(Theme.of(context).textTheme)),
       home:
-          Homepage(), // This trailing comma makes auto-formatting nicer for build methods.
+          Loginpage(), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
